@@ -14,7 +14,7 @@ export default defineConfig(({ command }) => {
     },
   };
   if (command !== "serve") {
-    config.base = "/my-app/";
+    config.base = "/my-app-v2/";
   }
 
   return config;

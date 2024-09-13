@@ -7,7 +7,7 @@ import Faq from "./pages/Faq";
 function App() {
   return (
     <>
-      <Router basename={import.meta.env.DEV ? "/" : "/my-app/"}>
+      <Router basename={import.meta.env.DEV ? "/" : "/my-app-v2/"}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/analysis" element={<Analysis />} />
